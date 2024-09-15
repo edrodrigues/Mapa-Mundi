@@ -37,7 +37,7 @@
 
         // Earth
         const textureLoader = new THREE.TextureLoader();
-        const earthTexture = textureLoader.load('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Mapa_do_Mundo%20(1)-sKrpIW8GnWu7gd0IukuH8Sw0LlzFDV.png');
+        const earthTexture = textureLoader.load('assets\mapa.jpeg');
         const earthGeometry = new THREE.SphereGeometry(2, 64, 64);
         const earthMaterial = new THREE.MeshStandardMaterial({ map: earthTexture });
         const earth = new THREE.Mesh(earthGeometry, earthMaterial);

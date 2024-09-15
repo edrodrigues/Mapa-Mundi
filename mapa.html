@@ -17,10 +17,10 @@
     </style>
 </head>
 <body>
-    <script type="module">
-        import * as THREE from 'https://cdn.skypack.dev/three@0.136.0';
-        import { OrbitControls } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls.js';
+    <script src="https://cdn.skypack.dev/three@0.136.0/build/three.js"></script>
+    <script src="https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls.js"></script>
 
+    <script>
         // Scene, Camera, Renderer
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -101,3 +101,4 @@
     </script>
 </body>
 </html>
+
